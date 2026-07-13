@@ -1,6 +1,6 @@
 {
-  "name": "@ortiz/mi-primer-plugin",
-  "version": "0.0.1",
+  "name": "@respaldokr4ken/mi-primer-plugin",
+  "version": "1.0.0",
   "description": "Mi primer plugin con capacitor",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -17,6 +17,9 @@
   ],
   "author": "Ortiz",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/respaldoKr4ken/mi-primer-plugin.git.git"
@@ -59,7 +62,7 @@
     "rimraf": "^6.0.1",
     "rollup": "^4.30.1",
     "swiftlint": "^2.0.0",
-    "typescript": "~4.1.5"
+    "typescript": "5.8.2"
   },
   "peerDependencies": {
     "@capacitor/core": ">=7.0.0"
