@@ -1,5 +1,5 @@
 {
-  "name": "@ortiz/mi-primer-plugin",
+  "name": "@respaldokr4ken/mi-primer-plugin",
   "version": "1.0.0",
   "description": "Mi primer plugin con capacitor",
   "main": "dist/plugin.cjs.js",
@@ -17,6 +17,9 @@
   ],
   "author": "Ortiz",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/respaldoKr4ken/mi-primer-plugin.git.git"
